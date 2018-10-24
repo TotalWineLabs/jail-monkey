@@ -29,7 +29,17 @@ android {
     }
 }
 
+allprojects {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://maven.google.com"
+        }
+        jcenter()
+    }
+}
+
 dependencies {
-    compile 'com.facebook.react:react-native:0.56.0'
+    compile 'com.facebook.react:react-native:+'
     compile 'com.scottyab:rootbeer-lib:0.0.6'
 }
