@@ -40,6 +40,6 @@ allprojects {
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:0.56.0'
+    compile 'com.facebook.react:react-native:+'
     compile 'com.scottyab:rootbeer-lib:0.0.6'
 }
